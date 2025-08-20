@@ -1,0 +1,30 @@
+body{
+    background-color:chartreuse;
+}
+.parrafo{
+    color:firebrick;
+background-color:blue
+}
+ #parrafoUnico{ 
+    color: burlywood;
+background-color: orange;
+}
+#contenedor1 {
+    width: 10vw;
+    height: 30vh;
+    border: 1px solid blue;
+    margin: 35px;
+}
+#contenedor2 {
+    width: 10vw;
+    height: 900vh;
+    border: 15px solid blue;
+    margin-left: 55px;
+
+ .cuadrado{
+    width: 10%;
+    height: 90%; 
+    background-color: aqua;
+    border: 15px solid blue;
+    }
+}
