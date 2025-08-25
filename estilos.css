@@ -10,21 +10,47 @@ background-color:blue
 background-color: orange;
 }
 #contenedor1 {
-    width: 10vw;
-    height: 30vh;
-    border: 1px solid blue;
+    width: 50vw;
+    height: 100vh;
+    border: 4px solid blue;
     margin: 35px;
+    position: relative;
+
+    
 }
 #contenedor2 {
-    width: 10vw;
-    height: 900vh;
-    border: 15px solid blue;
+    width: 35vw;
+    height: 100vh;
+    border: 4px solid blue;
     margin-left: 55px;
-
+    display: flex; 
+    align-content: stretch;
+    justify-content: space-between;
+}
  .cuadrado{
-    width: 10%;
-    height: 90%; 
+    width: 12%;
+    height: 12%; 
     background-color: aqua;
     border: 15px solid blue;
+    position: absolute;
     }
+
+#cuadro1 {
+    top:0%;
+    left:0%;
+}
+#cuadro2 {
+    top:30%;
+    left:30%;
+
+}
+.cuadrado2{
+     width: 12%;
+    height: 12%; 
+    background-color: aqua;
+    border: 15px solid blue; 
+    }
+#cuadro3 {
+    top:90%;
+    left:90%;
 }
