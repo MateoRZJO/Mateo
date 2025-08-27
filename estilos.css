@@ -54,3 +54,222 @@ background-color: orange;
     top:90%;
     left:90%;
 }
+/***********************/
+/* Estilo dibujo*/
+#tituloDibujo {
+text-align: center;
+}
+
+#lienzo {
+width: 700px;
+height: 600px;
+background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2020/12/how-to-draw-a-polar-bear-photo-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+}
+
+.circulo {
+    width: 100px; /* ancho */
+    height: 100px; /* alto */
+    background-color: rgb(24, 214, 208); /* color de fondo */
+    border-radius: 50%; /* redondea los bordes de la figura*/
+    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 10px; /* posición desde el borde superior del lienzo */
+    left: 10px; /* posición desde el borde izquierdo del lienzo */
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 230, 0);
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+ 
+/* línea hecha con border*/
+.lineaHorizontal {
+    width: 100px;
+    height: 0px;
+    border: 3px solid rgb(255, 0, 0); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+#cuadrado1 {
+    width: 340px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 240px;
+}
+/* línea hecha con border*/
+.lineaVertical {
+    width: 0px;
+    height: 100px;
+    border: 3px solid rgb(0, 140, 255); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 10px;
+    left: 390px;
+}
+/* línea hecha con border*/
+#linea1 {
+    height:250px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 70px;
+    left: 320px;
+    transform: rotate(-112deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea2 {
+    height:240px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 215px;
+    left: 230px;
+    transform: rotate(-170deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea3 {
+    height:190px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 80px;
+    left: 490px;
+    transform: rotate(100deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea4 {
+    height:310px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 160px;
+    left: 625px;
+    transform: rotate(155deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea5 {
+    height:550px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 175px;
+    left: 420px;
+    transform: rotate(90deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea5 {
+    height:550px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 175px;
+    left: 420px;
+    transform: rotate(90deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea6 {
+    height:550px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 15px;
+    left: 420px;
+    transform: rotate(90deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea7 {
+    height:350px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 160px;
+    left: 420px;
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea8 {
+    height:550px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    transform: rotate(90deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea9 {
+    height:350px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    transform: rotate(90deg);
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea10 {
+    height:350px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 130px;
+    left: 290px;
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea11 {
+    height:350px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 130px;
+    left: 590px;
+    size: 120px;
+}
+/* línea hecha con border*/
+#linea12 {
+    height:350px;
+    background-color: rgb(222, 18, 181);
+    position: absolute;
+    top: 130px;
+    left: 490px;
+    size: 120px;
+}
+    #triangulo1 {
+        position: absolute;
+      width: 0;
+      height: 0;
+      border-bottom: 240px solid rgb(255, 255, 255);
+      border-right: 100px solid transparent;
+      top: 210px ;
+      left: 580px ;
+    }
+
+    #triangulo2 {
+        position: absolute;
+      width: 0;
+      height: 0;
+      border-bottom: 160px solid rgb(255, 255, 255);
+      border-left: 40px solid transparent;
+      top: 300px ;
+      left: 200px ;
+    }
+
+    #triangulo3 {
+        position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 80px solid transparent;
+      border-right: 170px solid transparent;
+      border-bottom: 40px solid rgb(255, 255, 255);
+        top: 160px ;
+      left: 335px ;
+    }
